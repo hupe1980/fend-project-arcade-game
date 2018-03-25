@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - The goal of the game is to reach the water, without colliding one of the enemies
 - The player can move left, right, up and down with the arrow keys of his keyboard
 - The enemies move in varying speeds on the paved block portion of the board
-- Once a the player collides with an enemy, the player moves back to the start square and lost one life
+- Once the player collides with an enemy, the player moves back to the start square and lost one life
 - Once the player reaches the water, the player earns one point
 - Always after 5 points the level of difficulty is increased
 
