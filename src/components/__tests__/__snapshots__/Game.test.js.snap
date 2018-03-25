@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game GameOver renders correctly 1`] = `
+<Modal
+  ariaHideApp={true}
+  bodyOpenClassName="ReactModal__Body--open"
+  closeTimeoutMS={0}
+  contentLabel="Game Over"
+  id="game-over"
+  isOpen={false}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <styled.div>
+    <styled.h1>
+      !!! Game Over !!!
+    </styled.h1>
+    <styled.img
+      alt="avatar"
+      src="./image_url"
+    />
+    <styled.h1>
+      Your stats:
+    </styled.h1>
+    <styled.p>
+      Level: 999
+    </styled.p>
+    <styled.p>
+      Points: 999
+    </styled.p>
+    <styled.button
+      onClick={[Function]}
+    >
+      Restart Game
+    </styled.button>
+  </styled.div>
+</Modal>
+`;
+
+exports[`Game renders correctly 1`] = `
+<Game
+  avatar="image_url"
+  changeState={[Function]}
+  height={500}
+  level={999}
+  lives={999}
+  points={999}
+  width={500}
+>
+  <styled.section>
+    <section
+      className="sc-bZQynM bOrPFB"
+    >
+      <canvas
+        height={500}
+        width={500}
+      />
+      <GameOver
+        avatar="image_url"
+        level={999}
+        lives={999}
+        onRestart={[Function]}
+        points={999}
+      >
+        <Modal
+          ariaHideApp={true}
+          bodyOpenClassName="ReactModal__Body--open"
+          closeTimeoutMS={0}
+          contentLabel="Game Over"
+          id="game-over"
+          isOpen={false}
+          parentSelector={[Function]}
+          portalClassName="ReactModalPortal"
+          shouldCloseOnEsc={true}
+          shouldCloseOnOverlayClick={true}
+          shouldFocusAfterRender={true}
+          shouldReturnFocusAfterClose={true}
+        >
+          <ModalPortal
+            ariaHideApp={true}
+            bodyOpenClassName="ReactModal__Body--open"
+            closeTimeoutMS={0}
+            contentLabel="Game Over"
+            defaultStyles={
+              Object {
+                "content": Object {
+                  "WebkitOverflowScrolling": "touch",
+                  "background": "#fff",
+                  "border": "1px solid #ccc",
+                  "borderRadius": "4px",
+                  "bottom": "40px",
+                  "left": "40px",
+                  "outline": "none",
+                  "overflow": "auto",
+                  "padding": "20px",
+                  "position": "absolute",
+                  "right": "40px",
+                  "top": "40px",
+                },
+                "overlay": Object {
+                  "backgroundColor": "rgba(255, 255, 255, 0.75)",
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "fixed",
+                  "right": 0,
+                  "top": 0,
+                },
+              }
+            }
+            id="game-over"
+            isOpen={false}
+            parentSelector={[Function]}
+            portalClassName="ReactModalPortal"
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={true}
+            shouldFocusAfterRender={true}
+            shouldReturnFocusAfterClose={true}
+            style={
+              Object {
+                "content": Object {},
+                "overlay": Object {},
+              }
+            }
+          />
+        </Modal>
+      </GameOver>
+    </section>
+  </styled.section>
+</Game>
+`;

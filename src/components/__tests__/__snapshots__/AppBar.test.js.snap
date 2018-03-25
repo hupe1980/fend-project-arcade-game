@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar Level renders correctly 1`] = `
+<styled.div>
+  <styled.span>
+    Level: 999
+  </styled.span>
+</styled.div>
+`;
+
+exports[`AppBar Lives renders correctly 1`] = `
+<styled.div>
+  <styled.img
+    alt="heart"
+    src="./images/heart.png"
+  />
+  <styled.span>
+    x 999
+  </styled.span>
+</styled.div>
+`;
+
+exports[`AppBar Player renders correctly 1`] = `
+<styled.div>
+  <styled.span>
+    Player: 
+  </styled.span>
+  <styled.img
+    alt="avatar"
+    src="./image_url"
+  />
+  <select
+    onChange={[Function]}
+  >
+    <option
+      value="images/char-boy.png"
+    >
+      Boy
+    </option>
+    <option
+      value="images/char-cat-girl.png"
+    >
+      Cat Girl
+    </option>
+    <option
+      value="images/char-horn-girl.png"
+    >
+      Horn Girl
+    </option>
+    <option
+      value="images/char-pink-girl.png"
+    >
+      Pink Girl
+    </option>
+    <option
+      value="images/char-princess-girl.png"
+    >
+      Princess Girl
+    </option>
+  </select>
+</styled.div>
+`;
+
+exports[`AppBar Points renders correctly 1`] = `
+<styled.div>
+  <styled.span>
+    999 Points
+  </styled.span>
+</styled.div>
+`;

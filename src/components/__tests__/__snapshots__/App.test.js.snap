@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App (state = { loading: false }) 1`] = `
+<styled.main>
+  <Connect(Component) />
+  <Connect(Component)
+    height={606}
+    width={505}
+  />
+  <Footer />
+</styled.main>
+`;
+
+exports[`App renders correctly (state = { loading: true }) 1`] = `<LoadingIndicator />`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<styled.footer>
+  <styled.span>
+    2018 by hupe
+  </styled.span>
+</styled.footer>
+`;
